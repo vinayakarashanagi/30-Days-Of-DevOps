@@ -34,6 +34,8 @@ Deployments provide a higher-level abstraction for managing rolling updates and 
 
 ConfigMaps and Secrets allow you to externalize configuration and sensitive information from your application containers. They provide a way to manage environment-specific settings without modifying the container images.
 
+kubectl create secret docker-registery doc-credentials --docker-server=https//index.docker.io/v1/ --docker-username=vinay --docker-password= --docker-email=vinay@gmail.com 
+
 ### Volumes
 
 Volumes provide persistent storage for pods. They allow data to persist beyond the lifespan of a pod and enable data sharing between containers.
