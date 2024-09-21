@@ -38,6 +38,10 @@ ConfigMaps and Secrets allow you to externalize configuration and sensitive info
 
 Volumes provide persistent storage for pods. They allow data to persist beyond the lifespan of a pod and enable data sharing between containers.
 
+### Manifestfile
+
+Its a specification of k8s API object written in the yaml/json format file
+
 ## Architecture
 
 Kubernetes follows a master-worker architecture. The master components include the API server, controller manager, and scheduler, which collectively manage and control the cluster. The worker nodes, also known as minions, host the application workloads in the form of pods.
