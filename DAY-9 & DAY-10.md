@@ -2,10 +2,12 @@
 
 ## Introduction to Kubernetes
 
-Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides a robust and flexible environment for running and managing container workloads.
+K8s is a portable extensible and is a open source platform for managing containerized workloads and its services (PAS) 
+
+Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It provides a robust and flexible environment for running and managing container workloads. 
 
 ## Key Concepts
-
+Manifest file is a specification of k8s api object which is written in jason or yaml formate
 ### Containers
 
 Containers are lightweight and isolated units that package an application and its dependencies, allowing for consistent and reproducible deployments across different environments.
